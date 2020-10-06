@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-cursos.css">
+
+</head>
+<body>
+<!--ICONES DE CONTATO-->
+
+<div class="icones">
+
+    <a href="https://api.whatsapp.com/send?phone=5562992447194&text=" target="blank_"><img src="../img/icones/whatsapp.svg" alt="Whatsapp"></a>
+    <a href="https://www.instagram.com/denise_terapeutaholistica/" target="blank_"><img src="../img/icones/instagram.svg" alt="Instagram"></a>
+    <a href="https://www.facebook.com/Denise-Terapias-108103594397656/?modal=admin_todo_tour" target="blank_"><img src="../img/icones/facebook.svg" alt="Facebook"></a>
+</div>
+    
+<!--INICIO DO MENU-->
+<header class="menu">
+    <ul class="logoflor">
+        <li><img src="../img/logo.png" alt=""></li>
+    </ul>
+    <ul class="topicos">
+        <a href="index.html"><li>INÍCIO</li></a>
+        <a href="cursos.html"><li>CURSOS</li></a>        
+        <a href='atendimentos.html'><li>ATENDIMENTOS</li></a>
+        <a href="contato.html"><li>CONTATO</li></a>
+    </ul>
+</header>
+<!--FIM DO MENU-->
+<!--INICIO DO MENU-CELULAR-->
+<header class="menu-celular">
+    <ul class="logoflor">
+        <li><img src="../img/logo.png" alt=""></li>
+    </ul>
+    <input type="image" src="../img/icones/cardapio.svg" width="40" class="cardapio" onclick="clicarmenu()">
+    
+    <ul id="menu-celular">
+        <a href="index.html"><li>INÍCIO</li></a>
+        <a href="cursos.html"><li>CURSOS</li></a>        
+        <a href='atendimentos.html'><li>ATENDIMENTOS</li></a>
+        <a href="contato.html"><li>CONTATO</li></a>
+        <a><li><input type="button" value="VOLTAR" id="botaosair" onclick="clicarmenusair()"></li></a>
+    </ul>
+
+</header>
+<!--FIM DO MENU-CELULAR-->
+<!--INTRO-->
+<div class="intro">
+    <h2>Conheça nossos cursos</h2>
+</div>
+
+
+<!--CORPO-->
+
+<section class="todos-cursos">
+    <!--FILTRO-->
+    <div class="filtro">
+
+        <p>Filtrar:</p>
+
+        <br>
+        <a href="cursos.html"><input type="button" value="Todos" class="button-filtrar"></a>
+        <a href="cursos-florais.html"><input type="button" value="Florais" class="button-filtrar"></a>
+        <a href="cursos-arcturianos.html"><input type="button" value="Arcturianos" class="button-filtrar"></a>
+        <a href="cursos-pleiadianos.html"><input type="button" value="Pleiadianos" class="button-filtrar"></a>
+        <a href="cursos-thetahealing.html"><input type="button" value="TethaHealing" class="button-filtrar"></a>
+
+    </div>
+
+    <!--CARDS-->
+
+    <div class="cards">
+        <div class="card">
+            <img src="../img/curso-florais-arcturianos.jpg" alt="Arcturianos">
+            <p class="preco">R$ 00,00</p>
+            <div class="parcela">
+            <p>Boleto 00,00</p>
+            <p>2x no cartão</p>            
+            </div>
+            <p>FLORAIS ETÉRICOS ESTELARES ARCTURUS NÍVEL ÚNICO MESTRADO</p>        
+
+        </div> 
+    </div>
+    
+</section>
+
+<!--FOOTER-->
+
+<footer>
+    <div>
+    <p>Brasil</p>
+    <img src="../img/icones/brasil.svg" alt="">
+    </div>
+    <p class="criador">Site desenvolvido por: <a href="https://clicano.link/thallesalves" target="blank_">Thalles Alves</a></p>
+</footer>
+
+
+<script src="../JS/cursos.js"></script>
+<script src="../JS/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 70px;
+}
+.gmail{
+    margin: 0;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+    
+}
+.gmail img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.gmail a {
+    text-decoration: none;
+}
+.gmail a p{    
+    border-radius: 15px;
+    font-size: 25px;
+    color: chartreuse;
+    background-color: black;
+    width: 300px;
+    margin: 0 auto;
+}
+/*CELULAR*/
+
+@media(max-width: 900px){
+    h1{
+        margin-top: 30px;
+    }
+}
